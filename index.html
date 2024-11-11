@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json & Xml</title>
+</head>
+<body>
+    
+
+
+<div class="container">
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script src="jquery-3.7.1.min.js"></script>
+
+<script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+$.ajax({
+
+      url : "index.json",
+      success : function (res){s
+console.log (res);
+for (const Key in res){
+    // console.log (res[key]);
+    
+
+
+    if(typeof (res[key])=== 'object'){
+        for (const element in res [key]){
+            // console.log(res [key] [element]);
+        }
+    }
+    else if (typeof  (res[key]) === 'object'){
+        for (const element in res [key]){
+            cosole.log(res[key] [element]);
+        }
+    }
+
+
+    else {console.log(res [key])};
+
+}
+
+      }
+
+
+})
+
+
+
+    
+</script>

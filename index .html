@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FETCH API</title>
+</head>
+
+
+<body>
+    <Script>
+        fetch("https://fakestoreapi.com/products")
+              .then(data => data.json())
+              .then(data => {
+
+                for (var i in data) {
+                    var b = ${data[i].id}<br><br>
+                    ducoment.write(b)
+                }
+              }
+
+              )
+
+
+    </Script>
+</body>
+</html>

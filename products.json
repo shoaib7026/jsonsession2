@@ -1,0 +1,78 @@
+{
+    "bags" : [
+        {
+            "Name ": "Gucci",
+            "Price":"1000",
+            "Image":"Images/Bag1"
+        },
+        {
+            "Name ": "Addidas",
+            "Price":"1500",
+            "Image":"Images/Bag2"
+        },
+        {
+            "Name ": "Nike",
+            "Price":"2000",
+            "Image":"Images/Bag3"
+        },
+        {
+            "Name ": "Aptech",
+            "Price":"3000",
+            "Image":"Images/Bag4"
+        }
+
+
+      
+
+    ],
+
+    "watches": [
+
+{
+    "Name": "Abc",
+    "Price":"2000",
+    "image":"Images/Watche1"
+},
+{
+    "Name": "DEf",
+    "Price":"1000",
+    "image":"Images/Watche2"
+},
+{
+    "Name": "GHI",
+    "Price":"1500",
+    "image":"Images/Watche3"
+},
+{
+    "Name": "JKL",
+    "Price":"3000",
+    "image":"Images/Watche4"
+}
+
+
+
+    ],
+
+
+    "Shoes":[
+        {
+            "Name":"Skechers.",
+            "Price":"4000",
+            "Image":"image/shoe1"
+        },{
+            "Name":"Puma",
+            "Price":"6000",
+            "Image":"image/shoe2"
+        },
+        {
+            "Name":"Crocks",
+            "Price":"2000",
+            "Image":"image/shoe3"
+        },
+        {
+            "Name":"Nike",
+            "Price":"1000",
+            "Image":"image/shoe4"
+        }
+    ]
+}

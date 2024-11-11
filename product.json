@@ -1,0 +1,24 @@
+[
+    
+        {
+            "name":"Gucci",
+            "Price":1000,
+            "Image":"Images/Bag1"
+        },
+        {
+            "name": "Addidas",
+            "Price":2000,
+            "Image":"Images/Bag2"
+        },
+        {
+            "name": "Abc",
+            "Price":1500,
+            "Image":"Images/Bag3"
+        },
+        {
+            "name": "DEf",
+            "Price":4000,
+            "Image":"Images/Bag4"
+        }
+    
+]
